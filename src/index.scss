@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Eina 01 Bold';
+    src: local('Eina 01 Bold'), url(./assets/fonts/eina-01-bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Eina 01 Light';
+    src: local('Eina 01 Light'), url(./assets/fonts/eina-01-light.woff2) format('woff2');
+}
+
+@import "~@elastic/eui/dist/eui_theme_light.css";
+@import "components/index";

@@ -1,0 +1,114 @@
+{
+  "firstname": "Mathilde",
+  "lastname": "Lannes",
+  "headline": "Ingénieure full stack",
+  "skillsLabel": "",
+  "skills": [
+    {"label":  "react", "category":  "js"},
+    {"label":  "vue", "category":  "js"},
+    {"label":  "nodejs", "category":  "js"},
+    {"label":  "python", "category":  "backend"},
+    {"label":  "nlp", "category":  "ia"},
+    {"label":  "android", "category":  "mobile"},
+    {"label":  "design", "category":  "others"}
+  ],
+  "now": "maintenant",
+  "experiencesLabel": "Expériences et formation",
+  "experiences": [
+    {
+      "title": "CDI à ",
+      "description": "Développement d'une application mobile Android pour la gestion de colis <br/> Responsable frontend : développement de plugins Kibana en React <br /> Pilote de projet et développement full stack avec Machine Learning dans le domaine de la chimie",
+      "company": "Thales Services Numériques",
+      "startDate": "2019-10-01",
+      "endDate": ""
+    },
+    {
+      "title": "Alternance à ",
+      "description": "Conception, design et développement d'applications en Vue.js, Python et MongoDB autour du Traitement Automatique des Langues",
+      "company": "Synapse Développement",
+      "startDate": "2018-10-01",
+      "endDate": "2019-07-01"
+    },
+    {
+      "title": "Alternance à ",
+      "description": "Développement de multiples prototypes pour le Traitement Automatique des Langues en React, Angular 4, Ionic, NodeJS et Scala",
+      "company": "Geometric HCL",
+      "startDate": "2017-08-01",
+      "endDate": "2018-09-01"
+    },
+    {
+      "title": "Stage à ",
+      "description": "Initiation au Web Sémantique et développement d'un système de question-réponse en Angular 2",
+      "company": "l'IRIT",
+      "startDate": "2017-04-01",
+      "endDate": "2017-06-01"
+    },
+    {
+      "title": "Tutrice pour les étudiants de licence 1 en mathématiques",
+      "description": "",
+      "company": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01"
+    },
+    {
+      "title": "Aide aux devoirs pour des collégiens",
+      "description": "",
+      "company": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01"
+    }
+  ],
+  "formationLabel": "",
+  "formation": [
+    {
+      "title":  "Master Informatique Collaborative en Entreprise à ",
+      "description": "",
+      "company": "l'Université Toulouse - Jean Jaurès (UT2J)",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01"
+    },
+    {
+      "title":  "Licence en Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales à ",
+      "description": "",
+      "company": "l'UT2J",
+      "startDate": "2014-01-01",
+      "endDate": "2017-01-01"
+    }
+  ],
+  "projectsLabel": "Projets personnels",
+  "projects": [
+    {
+      "name": "bookshelves",
+      "logo": "books.png",
+      "description": "Gestionnaire de bibliothèque virtuelle",
+      "highlighted": "App mobile en Kotlin"
+    },
+    {
+      "name": "sew.ai",
+      "logo": "thread.png",
+      "description": "Gestionnaire de projets de couture",
+      "highlighted": "Web app en React, NodeJS, GraphQL et Apollo"
+    },
+    {
+      "name": "React dashboard",
+      "logo": "desktop.png",
+      "description": "Templates de dashboard en React",
+      "highlighted": "Web app en React"
+    }
+  ],
+  "contactLabel": "contact",
+  "contact": {
+    "phone": "06 XX XX XX XX",
+    "email": "mathilde.lannes@gmail.com",
+    "address": "Bretagne, France",
+    "website": "mathilde-lannes.com",
+    "language": ["Français", "anglais confirmé (990/990 au TOEIC)"]
+  },
+  "hobbiesLabel": "Loisirs",
+  "hobbies": [
+    {"icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/open-book_1f4d6.png", "value": "Lecture de romans en anglais et français"},
+    {"icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/writing-hand_270d-fe0f.png", "value": "Ecriture (obtention de prix littéraires)"},
+    {"icon": "art.png", "value": "Calligraphie, design d'interfaces"},
+    {"icon": "thread.png", "value": "Couture"}
+  ]
+}

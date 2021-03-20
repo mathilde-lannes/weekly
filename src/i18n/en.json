@@ -1,0 +1,114 @@
+{
+  "firstname": "Mathilde",
+  "lastname": "Lannes",
+  "headline": "Fullstack engineer",
+  "skillsLabel": "",
+  "skills": [
+    {"label":  "react", "category":  "js"},
+    {"label":  "vue", "category":  "js"},
+    {"label":  "nodejs", "category":  "js"},
+    {"label":  "python", "category":  "backend"},
+    {"label":  "nlp", "category":  "ia"},
+    {"label":  "android", "category":  "mobile"},
+    {"label":  "design", "category":  "others"}
+  ],
+  "now": "now",
+  "experiencesLabel": "Work experience and education",
+  "experiences": [
+    {
+      "title": "Open-ended contract at ",
+      "description": "Android mobile application development for managing packages <br/> Frontend leader: Kibana plugin development in React <br /> Fullstack development and Machine Learning in the chemistry field",
+      "company": "Thales Services Numériques",
+      "startDate": "2019-10-01",
+      "endDate": ""
+    },
+    {
+      "title": "Sandwich year at ",
+      "description": "Design and development of applications in Vue.js, Python and MongoDB around Natural Language Processing",
+      "company": "Synapse Développement",
+      "startDate": "2018-10-01",
+      "endDate": "2019-07-01"
+    },
+    {
+      "title": "Sandwich year at ",
+      "description": "Development of various proofs of concept for Natural Language Processing in React, Angular 4, Ionic, NodeJS and Scala",
+      "company": "Geometric HCL",
+      "startDate": "2017-08-01",
+      "endDate": "2018-09-01"
+    },
+    {
+      "title": "Internship at ",
+      "description": "Semantic Web initiation and development of a question-answering system in Angular 2",
+      "company": "the IRIT",
+      "startDate": "2017-04-01",
+      "endDate": "2017-06-01"
+    },
+    {
+      "title": "Tutor for freshmen in mathematics",
+      "description": "",
+      "company": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01"
+    },
+    {
+      "title": "Homework support for middle school students",
+      "description": "",
+      "company": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-01-01"
+    }
+  ],
+  "formationLabel": "",
+  "formation": [
+    {
+      "title":  "Master degree of Collaborative Computer Science at ",
+      "description": "",
+      "company": "the University Toulouse - Jean Jaurès (UT2J)",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01"
+    },
+    {
+      "title":  "Bachelor of Mathematics and Computer Science Applied to Human and Social Sciences at ",
+      "description": "",
+      "company": "the UT2J",
+      "startDate": "2014-01-01",
+      "endDate": "2017-01-01"
+    }
+  ],
+  "projectsLabel": "Personal projects",
+  "projects": [
+    {
+      "name": "bookshelves",
+      "logo": "books.png",
+      "description": "Virtual library management",
+      "highlighted": "Kotlin mobile app"
+    },
+    {
+      "name": "sew.ai",
+      "logo": "thread.png",
+      "description": "Sewing projects management",
+      "highlighted": "React, NodeJS, GraphQL and Apollo web app"
+    },
+    {
+      "name": "React dashboard",
+      "logo": "desktop.png",
+      "description": "Dashboard templates in React",
+      "highlighted": "React web app"
+    }
+  ],
+  "contactLabel": "contact",
+  "contact": {
+    "phone": "06 XX XX XX XX",
+    "email": "mathilde.lannes@gmail.com",
+    "address": "Brittany, France",
+    "website": "mathilde-lannes.com",
+    "language": ["French", "english (TOEIC score: 990/990)"]
+  },
+  "hobbiesLabel": "Hobbies",
+  "hobbies": [
+    {"icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/open-book_1f4d6.png", "value": "Reading books in English or French"},
+    {"icon": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/writing-hand_270d-fe0f.png", "value": "Writing (awarded national literary prizes)"},
+    {"icon": "art.png", "value": "Calligraphy, design"},
+    {"icon": "thread.png", "value": "Sewing"}
+  ]
+}
