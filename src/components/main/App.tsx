@@ -1,28 +1,35 @@
-import * as React from "react";
-import Header from "../header/Header";
-import {EuiFlexGroup, EuiFlexItem, EuiSpacer} from "@elastic/eui";
-import Experiences from "../experiences/Experiences";
-import ContactAndHobbies from "../contact-hobbies/ContactAndHobbies";
-import Projects from "../projects/Projects";
+import React, {useEffect} from 'react';
 
-export const LANGUAGE = "en";
+import {EuiFlexGroup, EuiFlexItem} from "@elastic/eui";
+import Schedule from "../schedule/Schedule";
+import {connect} from "react-redux";
+import {getAllCategories, getAllTodos, insertCategory} from "../../store/actions";
+import Categories from '../categories/Categories';
 
+function App({todos, categories, insertCategory, getAllCategories, getAllTodos}) {
 
-export default () => (
-    <div id="main-container">
-        <Header />
+    useEffect(() => {
+        getAllCategories()
+        getAllTodos()
+    }, [getAllCategories, getAllTodos])
 
-        <EuiFlexGroup className={"main-section"}>
-            <EuiFlexItem grow={7}>
-                <Experiences />
+    return (
+        <EuiFlexGroup id={"main-container"}>
+            <EuiFlexItem>
+                <Schedule todos={todos}/>
             </EuiFlexItem>
-            <EuiFlexItem grow={3}>
-                <ContactAndHobbies />
+            <EuiFlexItem>
+                <Categories categories={categories} insertCategory={insertCategory}/>
             </EuiFlexItem>
         </EuiFlexGroup>
+    );
+}
 
-        <EuiSpacer />
+const mapStateToProps = state => {
+    return {
+        todos: state.todos,
+        categories: state.categories,
+    };
+};
 
-        <Projects/>
-    </div>
-);
+export default connect(mapStateToProps, {insertCategory, getAllTodos, getAllCategories})(App);

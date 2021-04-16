@@ -3,9 +3,9 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './i18n/en.json';
 import translationFR from './i18n/fr.json';
-import {LANGUAGE} from "./components/main/App";
+// import {LANGUAGE} from "./components/main/App";
 
-let defaultLanguage = LANGUAGE;
+let defaultLanguage = "FR";
 
 // the translations
 const resources = {
